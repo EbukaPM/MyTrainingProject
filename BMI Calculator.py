@@ -1,6 +1,6 @@
 #i am adding the input field here
 weight = int(input("Enter Weight (KG) : "))
-height = float(input("Enter Height (M) : "))
+height = float(input("Enter Height (Meters) : "))
 
 bmi_cal = weight / (height ** 2)
 
