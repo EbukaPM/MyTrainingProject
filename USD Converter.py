@@ -5,6 +5,6 @@ dollar = int(input("Enter dollar amount you want to convert: "))
 #conversion calculation
 conversion_calculation = dollar * dollar_to_naira_rate
 converted_amount = f"{conversion_calculation:.2f} NGN"
-#print converted amount
+#print conversion process
 print(f"Converting ${dollar:,.2f} at a rate of {dollar_to_naira_rate:,.2f} NGN/USD.")
 print(f"The converted amount is: {converted_amount}")
